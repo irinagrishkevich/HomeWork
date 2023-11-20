@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to right, white 50%, #F8F8FA 50%);
+    color: #000;
+    font-weight: 700;
+}
+
+.header {
+    margin: 27px 0 112px 0;
+
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo-img {
+    width: 262px;
+    height: 55px;
+}
+
+.main {
+    max-width: 1092px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main__content {
+    width: 50%;
+}
+
+.main__image {
+    width: 50%;
+}
+
+.main__image-img {
+    margin-top: 60px;
+    margin-left: 11px;
+}
+
+.main__content-form {
+    max-width: 496px;
+    position: relative;
+}
+
+.main__content-title {
+    font-size: 36px;
+    margin-bottom: 7px;
+}
+
+.main__content-description {
+    color: #636363;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 42px;
+}
+
+.form__input label {
+    color: #C6C6C4;
+    font-size: 16px;
+}
+
+.form__input input {
+    width: 452px;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    margin-bottom: 20px;
+    color: #323232;
+    font-size: 20px;
+}
+.form__input.checkbox{
+    margin: 10px 0 40px 0;
+}
+
+.form__input.checkbox label {
+    color: #636363;
+    display: flex;
+    align-items: center;
+}
+
+.form__input.checkbox input {
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.form__input-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    border: 0;
+    border-radius: 40px;
+    background: #DD3142;
+    width: 210px;
+    height: 70px;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 69px;
+    cursor: pointer;
+}
+.form__input-btn .link{
+    color: #636363;
+    font-size: 16px;
+    text-decoration: none;
+}
+.popup{
+    display: none;
+}
+.popup{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    margin: 0;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    z-index: 999999;
+    transition: all 0.4s ease;
+}
+.popup__container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 70px;
+}
+/*.popup.active{*/
+/*    display: block;*/
+/*}*/
+
+.menu.open{
+
+}

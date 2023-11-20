@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="header">
+    <div class="header__logo">
+        <img class="header__logo-img" src="img/logo.png" alt="logo">
+    </div>
+</header>
+<section class="main">
+    <div class="main__content">
+        <div class="main__content-form">
+            <h1 class="main__content-title" id="main__content-title">Get your free account</h1>
+            <h2 class="main__content-description">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</h2>
+            <form class="main__form" method="post">
+                <div class="form__inputs">
+                    <div class="form__input" id="form-name">
+                        <label for="name">Full Name
+                            <input type="text" name="name" id="name" autocomplete="name" required>
+                        </label>
+                    </div>
+                    <div class="form__input" id="form-username">
+                        <label for="username">Your username
+                            <input type="text" name="username" id="username" autocomplete="username" required>
+                        </label>
+                    </div>
+                    <div class="form__input" id="form-email">
+                        <label for="email">E-mail
+                            <input type="email" name="email" id="email" autocomplete="email" required>
+                        </label>
+                    </div>
+                    <div class="form__input" id="form-password">
+                        <label for="password">Password
+                            <input type="password" name="password" id="password" autocomplete="password" required>
+                        </label>
+                    </div>
+                    <div class="form__input" id="form-new-password">
+                        <label for="password">Repeat Password
+                            <input type="password" name="password" id="new-password" autocomplete="new-password"  required>
+                        </label>
+                    </div>
+                    <div class="form__input checkbox" id="form-checkbox">
+                        <label for="checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" required>
+                            Agree to our Terms of Service and Privacy Statement
+                        </label>
+                    </div>
+                    <div class="form__input-btn">
+                        <button class="btn" id="btn" type="submit">Sign Up</button>
+                        <a class="link" id="link" href="#">Already have an account?</a>
+                    </div>
+                </div>
+            </form>
+            <div class="popup" id="popup">
+                <div class="popup__container">
+                    <div class="popup-text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</div>
+                    <button class="btn" id="popup-btn" type="submit">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main__image">
+        <img class="main__image-img" src="img/image.png" alt="image">
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
